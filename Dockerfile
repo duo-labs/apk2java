@@ -7,8 +7,7 @@ RUN apt-get update && apt-get install -y \
     unzip \
     p7zip-full;
 
-ENV JD_CLI_VERSION "0.9.1.Final"
-# ENV JD_CLI_VERSION "1.0.1.Final"
+ENV JD_CLI_VERSION "1.0.1.Final"
 
 RUN mkdir -p /opt
 WORKDIR /opt
